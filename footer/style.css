@@ -1,0 +1,29 @@
+.footer {
+    position: fixed; /* Fixes it at the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    background-color: #161616; /* Dark background */
+    color: white; /* Text color */
+    text-align: center;
+    padding: 1.5rem 0; /* Adjust padding */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5); /* Top shadow effect */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #b74b4b; /* Red theme */
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+.footer .social-icons a:hover {
+    color: white; /* Change color on hover */
+    transform: scale(1.2);
+}
