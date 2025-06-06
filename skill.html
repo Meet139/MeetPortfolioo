@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Skills</title>
+    <style>
+        /* Style for the Back to Home button */
+        .back-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #333;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .back-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body data-page="skill">
+
+   
+   <h1><br> <a href="#" class="btn"  onclick="goBack()">Back to Home</a>
+    <center>My Skills & Achievements</h1></center>
+    <iframe src="certifiates.pdf" width="100%" height="600px"></iframe>
+
+    <script>
+        function goBack() {
+            window.location.href = "index.html"; // Redirect to Home Page
+        }
+
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault(); // Disable right-click
+        });
+
+        document.addEventListener("keydown", function (e) {
+            if (e.ctrlKey && (e.key === "s" || e.key === "p")) {
+                e.preventDefault(); // Disable Save & Print
+            }
+        });
+    </script>
+    
+    <footer>
+        <iframe src="footer/footer.html" width="100%" height="100"></iframe>
+    
+    </footer>
+</body>
+</html>
