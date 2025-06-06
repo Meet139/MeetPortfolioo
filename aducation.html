@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Education</title>
+</head>
+<body data-page="education">
+    <br>
+    <br>
+    <header>
+        <a href="#" class="logo">
+            <img src="logo.png" alt="Meet Rathod Logo">
+        </a>
+    
+        <div class="menu-icon" id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+    
+        <nav id="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="skill.html">Certified</a>
+            <a href="aducation.html">Education</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+     <br><br>   <br><br>   <br><br>   
+    <section class="education">
+        <h1 class="title">My Education</h1>
+        <div class="edu-container">
+            <div class="edu-box">
+                <h2>Aditya School Manavadar</h2>
+                <p>Manavadar, Junagadh</p>
+                <p><strong>10th (Pass)</strong></p>
+            </div>
+            <div class="edu-box">
+                <h2>Government Polytechnic Jamnagar</h2>
+                <p>Jamnagar</p>
+                <p><strong>Computer Engineering (Sem-6 Result pending)</strong></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <iframe src="footer/footer.html" width="100%" height="100"></iframe>
+    
+    </footer>
+</body>
+<script>
+    const menuIcon = document.getElementById('menu-icon');
+    const navbar = document.getElementById('navbar');
+
+    menuIcon.addEventListener('click', () => {
+        navbar.classList.toggle('show');
+    });
+</script>
+<script src="script.js"></script>
+</html>
